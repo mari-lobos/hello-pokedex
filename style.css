@@ -5,7 +5,8 @@
 
 
 body {
-    background:  #dc0a2d;
+    background-color:  #dc0a2d;
+    background-size: 640px ;
     padding: 4px;
     display: flex;
     flex-direction: column;
@@ -13,25 +14,28 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
     height: 640px;
-    width: 360px;
-    position: relative;
-    overflow: hidden;
+    position:fixed;
+    overflow: fixed;
+
 }
 
 header {
-    padding: 12px 12px 24px 12px;
+    
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
     align-items: flex-start;
     justify-content: flex-start;
     align-self: stretch;
     flex-shrink: 0;
-    position: relative;
+    position: hidden;
+    
+    
 }
 
 h1 {
     color: #ffffff;
+    gap: 16px;
     text-align: left;
     font-family:"Roobert";
     font-size:24px;
@@ -50,7 +54,7 @@ input {
     display: flex;
     flex-direction: row;
     gap: 8px;
-    align-items: center;
+    align-items: left;
     justify-content: flex-start;
     flex: 1;
     position: relative;
@@ -70,7 +74,7 @@ button {
     display: flex;
     flex-direction: row;
     gap: 8px;
-    align-items: flex-start;
+    align-items: left;
     justify-content: flex-start;
     flex-shrink: 0;
     position: relative;
@@ -84,17 +88,16 @@ button {
 
 
 main {
+    
     background: #ffffff;
     border-radius: 8px;
-    padding: 24px 12px 0px 12px;
-    display: flex;
-    flex-direction: row;
+    padding: 2px;
+    display: list-item;
     gap: 8px;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     align-self: stretch;
-    flex: 1;
-    position: relative;
+    flex: 30px;
     box-shadow: var(
       --inner-shadow-2-dp-box-shadow,
       inset 0px 1px 3px 1px rgba(0, 0, 0, 0.25)
@@ -103,14 +106,13 @@ main {
 }
 
 ul {
+
     display: flex;
     flex-direction: row;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
+    gap: 10px;
+    margin: 8px;
+    padding-inline-start: 2px ;
+
 }
 
 li {
@@ -132,16 +134,16 @@ li {
 
 
 li number {
+    padding: 4px 8px 0px 8px;
     color:  #666666;
-    text-align: left;
+    text-align: right;
     font-family: "Roobert";
     font-size: 8px;
     line-height: 12px;
     font-weight: 400;
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    justify-content: left;
 }
 
 li name {
