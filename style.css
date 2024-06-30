@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Poppins-Regular;
-    src: url(../hello-pokedex/font/Poppins-Regular.woff);
+    font-family: Roobert;
+    src: url(../hello-pokedex/font/Roobert-Bold.otf);
 }
 
 
 body {
-    background: var(--identity-primary, #dc0a2d);
+    background:  #dc0a2d;
     padding: 4px;
     display: flex;
     flex-direction: column;
@@ -31,12 +31,12 @@ header {
 }
 
 h1 {
-    color: var(--grayscale-white, #ffffff);
+    color: #ffffff;
     text-align: left;
-    font-family:"P";
-    font-size: var(--header-headline-font-size, 24px);
-    line-height: var(--header-headline-line-height, 32px);
-    font-weight: var(--header-headline-font-weight, 700);
+    font-family:"Roobert";
+    font-size:24px;
+    line-height:  32px;
+    font-weight:  700;
     position: relative;
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@ h1 {
 }
 
 input {
-    background: var(--grayscale-white, #ffffff);
+    background: #ffffff;
     border-radius: 16px;
     padding: 8px 16px 8px 12px;
     display: flex;
@@ -64,7 +64,7 @@ input {
 
 
 button {
-    background: var(--grayscale-white, #ffffff);
+    background: #ffffff;
     border-radius: 16px;
     padding: 8px;
     display: flex;
@@ -84,7 +84,7 @@ button {
 
 
 main {
-    background: var(--grayscale-white, #ffffff);
+    background: #ffffff;
     border-radius: 8px;
     padding: 24px 12px 0px 12px;
     display: flex;
@@ -114,7 +114,7 @@ ul {
 }
 
 li {
-    background: var(--grayscale-white, #ffffff);
+    background: #ffffff;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -132,12 +132,12 @@ li {
 
 
 li number {
-    color: var(--grayscale-medium, #666666);
-    text-align: right;
-    font-family: "Poppins-Regular", sans-serif;
-    font-size: var(--body-caption-font-size, 8px);
-    line-height: var(--body-caption-line-height, 12px);
-    font-weight: var(--body-caption-font-weight, 400);
+    color:  #666666;
+    text-align: left;
+    font-family: "Roobert";
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: 400;
     position: relative;
     display: flex;
     align-items: center;
@@ -145,12 +145,12 @@ li number {
 }
 
 li name {
-  color: var(--grayscale-dark, #1d1d1d);
+  color: #1d1d1d;
   text-align: center;
-  font-family:"Poppins-Regular", sans-serif;
-  font-size: var(--body-body-3-font-size, 10px);
-  line-height: var(--body-body-3-line-height, 16px);
-  font-weight: var(--body-body-3-font-weight, 400);
+  font-family:"Roobert";
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 400;
   position: relative;
   flex: 1;
   display: flex;
