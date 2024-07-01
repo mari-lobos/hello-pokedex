@@ -10,7 +10,7 @@
 
 body {
 
-background-color: #dc0a2d;
+    background-color: #dc0a2d;
     padding: 4px;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ background-color: #dc0a2d;
     overflow: fixed;
 
 }
-
+  
 
     
 
