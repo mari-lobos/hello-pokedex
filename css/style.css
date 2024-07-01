@@ -66,6 +66,8 @@ h1 {
     justify-content: flex-start;
 }
 
+
+
 input {
     background: #ffffff;
     font-family: "Poppins";
@@ -102,8 +104,7 @@ button {
     position: relative;
     box-shadow: var(
       --inner-shadow-2-dp-box-shadow,
-      inset 0px 1px 3px 1px rgba(0, 0, 0, 0.25)
-    );
+      inset 0px 1px 3px 1px rgba(0, 0, 0, 0.25));
     overflow: hidden;
 }
 
@@ -164,7 +165,7 @@ ul > li > * {
 	z-index: 10;
 }
 
-li number {
+span {
     margin-top: 10px;
     margin-right: 6px;
     color:  #666666;
@@ -174,7 +175,7 @@ li number {
 
 }
 
-li name {
+p {
   
   color: #1d1d1d;
   font-family:"Poppins";
