@@ -159,34 +159,6 @@ ul > li > * {
 	z-index: 10;
 }
 
-/*
-span {
-    margin-top: 20px;
-    margin-right: 6px;
-    color:  #666666;
-    font-family: "Poppins";
-    font-size: 8px;
-    align-self: flex-end;
-
-}
-
-p {
-  
-  color: #1d1d1d;
-  font-family:"Poppins";
-  font-size: 10px;
-  line-height: 16px;
-  font-weight: 400;
-  position: relative;
-  flex: 1;
-  display: flex;
-  align-self: right;
-  margin-bottom: 2px;
-
-  
-}
-
-*/
 
 span {
   margin-top: 26px;
