@@ -140,7 +140,7 @@ li {
 	position: relative;
 	overflow: hidden;
 	display: flex;
-	gap: 4px;
+  aspect-ratio: 1 / 1;
 }
 
 ul > li:before {
@@ -159,8 +159,9 @@ ul > li > * {
 	z-index: 10;
 }
 
+/*
 span {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 6px;
     color:  #666666;
     font-family: "Poppins";
@@ -185,3 +186,26 @@ p {
   
 }
 
+*/
+
+span {
+  margin-top: 26px;
+  margin-right: 2px;
+  color:  #666666;
+  font-family: "Poppins";
+  font-size: 8px;
+  align-self: flex-end;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para mejorar la visibilidad */
+  padding: 2px 4px; /* Añadir un poco de padding para separar el texto del borde */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+p {
+  color: #1d1d1d;
+  font-family: "Poppins";
+  font-size: 10px;
+  display: flex;
+  padding-bottom: 16px;
+  
+ 
+}
