@@ -1,11 +1,11 @@
 @font-face {
     font-family: Poppins;
-    src: url(../hello-pokedex/font/Poppins-Regular.otf);
+    src: url(../font/Poppins-Regular.otf);
 }
 
 @font-face {
     font-family: Roobert;
-    src: url(../hello-pokedex/font/Roobert-Bold.otf);
+    src: url(../font/Roobert-Bold.otf);
 }
 
 html {
